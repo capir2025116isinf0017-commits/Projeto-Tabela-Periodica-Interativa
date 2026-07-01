@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela Periódica Interativa</title>
+<link rel="stylesheet" href="../teste-familas.css">
+</head>
+
+<body>
+
+<h1>Família do Carbono</h1>
+<p class="titulo">A família do carbono pertence ao Grupo 14. Todos os seus elementos possuem quatro elétrons na camada de valência, o que lhes permite formar diversas ligações químicas. Essa família reúne um ametal, dois metaloides e três metais, apresentando propriedades bastante variadas. Seus elementos são fundamentais para a vida, a indústria, a eletrônica e a tecnologia.</p>
+
+<div class="tabela">
+    <div class="elemento"
+         onclick="mostrarInfo('Carbono', 'O carbono possui número atômico 6 e é um ametal essencial para a vida na Terra. Está presente em todos os seres vivos e forma uma enorme variedade de compostos orgânicos. Pode ser encontrado em diferentes formas, como diamante, grafite e grafeno, cada uma com propriedades distintas. É utilizado na fabricação de combustíveis, plásticos, fibras de carbono, filtros, lápis e diversos materiais industriais.')">
+        <div class="numero">6</div>
+        <div class="simbolo">C</div>
+        <div class="nome">Carbono</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Silício', 'O silício possui número atômico 14 e é um metaloide muito abundante na crosta terrestre. É o principal componente da areia e de muitos minerais. O silício é indispensável para a fabricação de semicondutores, microprocessadores, painéis solares, vidros, cerâmicas e componentes eletrônicos, sendo considerado um dos materiais mais importantes da tecnologia moderna.')">
+        <div class="numero">14</div>
+        <div class="simbolo">Si</div>
+        <div class="nome">Silício</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Germânio', 'O germânio possui número atômico 32 e é um metaloide de aparência prateada. Apresenta propriedades semicondutoras, sendo utilizado na fabricação de fibras ópticas, sensores, dispositivos eletrônicos, detectores de radiação e equipamentos de comunicação. Também é empregado em sistemas de visão infravermelha.')">
+        <div class="numero">32</div>
+        <div class="simbolo">Ge</div>
+        <div class="nome">Germânio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Estanho', 'O estanho possui número atômico 50 e é um metal prateado, maleável e resistente à corrosão. É amplamente utilizado na fabricação de soldas eletrônicas, revestimento de latas de alimentos, ligas metálicas e componentes industriais. Sua resistência à oxidação contribui para a conservação de alimentos em embalagens metálicas.')">
+        <div class="numero">50</div>
+        <div class="simbolo">Sn</div>
+        <div class="nome">Estanho</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Chumbo', 'O chumbo possui número atômico 82 e é um metal pesado, macio e de alta densidade. É muito eficiente na absorção de radiações, sendo utilizado em blindagens contra raios X e radiação nuclear. Também é empregado na fabricação de baterias automotivas e alguns equipamentos industriais. Devido à sua elevada toxicidade, seu uso é controlado para reduzir riscos à saúde e ao meio ambiente.')">
+        <div class="numero">82</div>
+        <div class="simbolo">Pb</div>
+        <div class="nome">Chumbo</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Fleróvio', 'O fleróvio possui número atômico 114 e é um elemento sintético e altamente radioativo. Foi produzido artificialmente em laboratório e existe por um curto período antes de sofrer decaimento radioativo. Por causa de sua instabilidade, não possui aplicações comerciais e é utilizado apenas em pesquisas científicas relacionadas à física nuclear e ao estudo dos elementos superpesados.')">
+        <div class="numero">114</div>
+        <div class="simbolo">Fl</div>
+        <div class="nome">Fleróvio</div>
+    </div>
+
+    
+</div>
+
+<div class="info">
+    <h2 id="titulo">Selecione um elemento</h2>
+    <p id="descricao">
+        Toque ou clique em um elemento para ver sua descrição.
+    </p>
+</div>
+<script src="../familias.js"></script>
+</body>
+</html>
