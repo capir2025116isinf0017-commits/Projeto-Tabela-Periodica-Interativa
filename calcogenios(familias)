@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela Periódica Interativa</title>
+<link rel="stylesheet" href="../teste-familas.css">
+</head>
+
+<body>
+
+<h1>Calcogênios</h1>
+<p class="titulo">A família dos calcogênios pertence ao Grupo 16. Seus elementos possuem seis elétrons na camada de valência, necessitando de dois elétrons para completar a camada externa. Essa família é formada por ametais, um metaloide, um metal e elementos sintéticos. Os calcogênios são fundamentais para a vida e possuem diversas aplicações na indústria, na medicina e na tecnologia.</p>
+
+<div class="tabela">
+    <div class="elemento"
+         onclick="mostrarInfo('Oxigênio', 'O oxigênio possui número atômico 8 e é um ametal que representa cerca de 21% da atmosfera terrestre. É indispensável para a respiração da maioria dos seres vivos e participa de diversos processos químicos, como a combustão e a oxidação. Também é utilizado em hospitais, indústrias metalúrgicas, fabricação de aço e tratamento de água.')">
+        <div class="numero">8</div>
+        <div class="simbolo">O</div>
+        <div class="nome">Oxigênio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Enxofre', 'O enxofre possui número atômico 16 e é um ametal de coloração amarela encontrado principalmente em minerais e depósitos vulcânicos. É utilizado na produção de ácido sulfúrico, fertilizantes, medicamentos, fungicidas, pólvora, borracha vulcanizada e diversos produtos químicos. Também é um elemento essencial para os seres vivos, pois faz parte de algumas proteínas.')">
+        <div class="numero">16</div>
+        <div class="simbolo">S</div>
+        <div class="nome">Enxofre</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Selênio', 'O selênio possui número atômico 34 e é um ametal com propriedades semelhantes às do enxofre. Em pequenas quantidades, é um micronutriente essencial para o organismo humano, atuando como antioxidante. É utilizado na fabricação de painéis solares, fotocopiadoras, células fotovoltaicas, vidros especiais e componentes eletrônicos.')">
+        <div class="numero">34</div>
+        <div class="simbolo">Se</div>
+        <div class="nome">Selênio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Telúrio', 'O telúrio possui número atômico 52 e é um metaloide de aparência prateada. É relativamente raro e apresenta propriedades semicondutoras. É empregado na fabricação de ligas metálicas, células solares, dispositivos termoelétricos, semicondutores e componentes eletrônicos, além de melhorar a resistência de alguns metais.')">
+        <div class="numero">52</div>
+        <div class="simbolo">Te</div>
+        <div class="nome">Telúrio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Polônio', 'O polônio possui número atômico 84 e é um metal altamente radioativo e raro. Descoberto por Marie Curie e Pierre Curie, é encontrado em pequenas quantidades em minérios de urânio. Devido à sua intensa radioatividade, possui aplicações limitadas em pesquisas científicas e em alguns equipamentos especializados.')">
+        <div class="numero">84</div>
+        <div class="simbolo">Po</div>
+        <div class="nome">Polônio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Livermório', 'O livermório possui número atômico 116 e é um elemento sintético e altamente radioativo, produzido artificialmente em laboratório. Ele existe por um período extremamente curto antes de sofrer decaimento radioativo. Por causa dessa instabilidade, não possui aplicações comerciais e é utilizado apenas em pesquisas sobre física nuclear e elementos superpesados.')">
+        <div class="numero">116</div>
+        <div class="simbolo">Lv</div>
+        <div class="nome">Livermório</div>
+    </div>
+
+    
+</div>
+
+<div class="info">
+    <h2 id="titulo">Selecione um elemento</h2>
+    <p id="descricao">
+        Toque ou clique em um elemento para ver sua descrição.
+    </p>
+</div>
+<script src="../familias.js"></script>
+</body>
+</html> 
