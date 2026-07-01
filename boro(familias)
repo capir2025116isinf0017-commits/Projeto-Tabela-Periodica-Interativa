@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela Periódica Interativa</title>
+<link rel="stylesheet" href="../teste-familas.css">
+</head>
+
+<body>
+
+<h1>Família do Boro</h1>
+<p class="titulo">A família do boro pertence ao Grupo 13. Seus elementos possuem três elétrons na camada de valência e apresentam características variadas. O boro é um semimetal (metaloide), enquanto os demais elementos da família são metais. Eles são utilizados em diversas áreas, como eletrônica, construção civil, embalagens e tecnologia.</p>
+
+<div class="tabela">
+    <div class="elemento"
+         onclick="mostrarInfo('Boro', 'O boro possui número atômico 5 e é um metaloide de elevada dureza e baixa condutividade elétrica em temperatura ambiente. É encontrado principalmente em minerais e não ocorre livre na natureza. O boro é utilizado na fabricação de vidros resistentes ao calor, fibras de vidro, detergentes, fertilizantes e materiais cerâmicos. Também é importante para o desenvolvimento das plantas.')">
+        <div class="numero">5</div>
+        <div class="simbolo">B</div>
+        <div class="nome">Boro</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Alumínio', 'O alumínio possui número atômico 13 e é um metal leve, resistente à corrosão e excelente condutor de calor e eletricidade. É um dos metais mais abundantes da crosta terrestre e amplamente utilizado na fabricação de latas, embalagens, janelas, portas, veículos, aeronaves, fios elétricos e utensílios domésticos. Sua baixa densidade e alta resistência fazem dele um dos materiais mais importantes da indústria.')">
+        <div class="numero">13</div>
+        <div class="simbolo">Al</div>
+        <div class="nome">Alumínio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Gálio', 'O gálio possui número atômico 31 e é um metal macio que pode derreter próximo à temperatura ambiente, pois seu ponto de fusão é de cerca de 30 °C. É utilizado principalmente na fabricação de semicondutores, LEDs, células solares e componentes eletrônicos. O gálio é um material essencial para diversas tecnologias modernas.')">
+        <div class="numero">31</div>
+        <div class="simbolo">Ga</div>
+        <div class="nome">Gálio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Índio', 'O índio possui número atômico 49 e é um metal macio, maleável e de aparência prateada. É amplamente utilizado na produção de telas sensíveis ao toque, televisores, monitores, painéis LCD e células solares, principalmente na forma de óxido de índio e estanho (ITO), um material transparente e condutor de eletricidade.')">
+        <div class="numero">49</div>
+        <div class="simbolo">In</div>
+        <div class="nome">Índio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Tálio', 'O tálio possui número atômico 81 e é um metal macio, pesado e altamente tóxico. No passado, foi utilizado na fabricação de pesticidas e raticidas, mas seu uso foi reduzido devido aos riscos à saúde. Atualmente, é empregado em equipamentos eletrônicos, detectores de radiação, dispositivos ópticos e algumas pesquisas científicas.')">
+        <div class="numero">81</div>
+        <div class="simbolo">Tl</div>
+        <div class="nome">Tálio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Nihônio', 'O nihônio possui número atômico 113 e é um elemento sintético e altamente radioativo. Foi produzido artificialmente em laboratório e existe apenas por frações de segundo antes de sofrer decaimento radioativo. Por causa de sua curta duração e da dificuldade de produção, não possui aplicações comerciais, sendo utilizado apenas em pesquisas sobre a estrutura dos elementos químicos e a física nuclear.')">
+        <div class="numero">113</div>
+        <div class="simbolo">Nh</div>
+        <div class="nome">Nihônio</div>
+    </div>
+
+    
+</div>
+
+<div class="info">
+    <h2 id="titulo">Selecione um elemento</h2>
+    <p id="descricao">
+        Toque ou clique em um elemento para ver sua descrição.
+    </p>
+</div>
+<script src="../familias.js"></script>
+</body>
+</html>
