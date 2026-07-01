@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela Periódica Interativa</title>
+<link rel="stylesheet" href="../teste-familas.css">
+</head>
+
+<body>
+
+<h1>Metais Alcalinos</h1>
+<p class="titulo">Os metais alcalinos pertencem ao grupo 1 e possuem apenas 1 elétron na camada de valência,
+     são muito reativos e nunca são encontrados na natureza em seu estado puro.</p>
+
+<div class="tabela">
+    <div class="elemento"
+         onclick="mostrarInfo('Hidrogênio', 'O hidrogênio é o primeiro elemento da Tabela Periódica e possui número atômico 1. Embora esteja localizado na mesma coluna dos metais alcalinos, ele não pertence a essa família, pois é um ametal e apresenta propriedades muito diferentes. É o elemento mais leve e o mais abundante do universo, sendo encontrado em grande quantidade nas estrelas. Em temperatura ambiente, encontra-se no estado gasoso e é altamente inflamável. O hidrogênio é utilizado na produção de amônia, em células a combustível, na indústria química e como combustível para foguetes.')">
+        <div class="numero">1</div>
+        <div class="simbolo">H</div>
+        <div class="nome">Hidrogênio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Lítio', 'O lítio é o metal mais leve da Tabela Periódica e o primeiro integrante da família dos metais alcalinos. Possui número atômico 3 e é um metal macio, de coloração prateada, que reage com a água, embora menos intensamente que os demais metais do grupo. É amplamente utilizado na fabricação de baterias recarregáveis para celulares, computadores e veículos elétricos, além de ser empregado em medicamentos para transtorno bipolar, ligas metálicas e vidros especiais.')">
+        <div class="numero">3</div>
+        <div class="simbolo">Li</div>
+        <div class="nome">Lítio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Sódio', 'O sódio possui número atômico 11 e é um metal alcalino muito reativo, macio e de aspecto prateado. Em contato com a água, reage rapidamente, formando hidróxido de sódio e liberando hidrogênio. Na natureza, não é encontrado isolado, mas principalmente na forma de compostos, como o cloreto de sódio, conhecido como sal de cozinha. O sódio é utilizado na produção de sabões, papel, vidro, produtos químicos e em lâmpadas de vapor de sódio.')">
+        <div class="numero">11</div>
+        <div class="simbolo">Na</div>
+        <div class="nome">Sódio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Potássio', 'O potássio é um metal alcalino de número atômico 19 e apresenta reatividade ainda maior que a do sódio. É um metal macio, de brilho metálico quando recém-cortado, mas oxida rapidamente ao entrar em contato com o ar. O potássio é indispensável para o funcionamento do organismo humano, participando da transmissão de impulsos nervosos e da contração muscular. Também é muito utilizado na produção de fertilizantes, aumentando a produtividade agrícola.')">
+        <div class="numero">19</div>
+        <div class="simbolo">K</div>
+        <div class="nome">Potássio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Rubídio', 'O rubídio possui número atômico 37 e é um metal alcalino extremamente reativo, capaz de inflamar espontaneamente quando exposto ao ar. É um elemento relativamente raro e de aspecto prateado. Devido às suas propriedades, é utilizado principalmente em pesquisas científicas, na fabricação de relógios atômicos e em equipamentos eletrônicos de alta precisão. Seu uso comercial é limitado por causa de seu alto custo e elevada reatividade.')">
+        <div class="numero">37</div>
+        <div class="simbolo">Rb</div>
+        <div class="nome">Rúbidio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Césio', 'O césio é um metal alcalino de número atômico 55, conhecido por sua coloração dourada e por ser um dos elementos mais reativos da Tabela Periódica. Reage de forma extremamente violenta com a água e pode até derreter próximo à temperatura ambiente. O césio é amplamente empregado na fabricação de relógios atômicos, que são os mais precisos do mundo e servem como referência para a medição oficial do tempo. Também é utilizado em pesquisas científicas e em alguns equipamentos eletrônicos.')">
+        <div class="numero">55</div>
+        <div class="simbolo">Cs</div>
+        <div class="nome">Césio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Frâncio', 'O frâncio é o último elemento da família dos metais alcalinos e possui número atômico 87. É extremamente raro, altamente radioativo e muito instável, existindo apenas em pequenas quantidades na natureza devido ao seu rápido decaimento. Por essas características, praticamente não possui aplicações comerciais e é utilizado apenas em pesquisas científicas relacionadas à radioatividade e à estrutura da matéria. Estima-se que seja o metal alcalino mais reativo de todos, embora seja difícil estudar suas propriedades devido à sua escassez.')">
+        <div class="numero">87</div>
+        <div class="simbolo">Fr</div>
+        <div class="nome">Frâncio</div>
+    </div>
+</div>
+
+<div class="info">
+    <h2 id="titulo">Selecione um elemento</h2>
+    <p id="descricao">
+        Toque ou clique em um elemento para ver sua descrição.
+    </p>
+</div>
+<script src="../familias.js"></script>
+</body>
+</html>
