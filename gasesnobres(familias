@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela Periódica Interativa</title>
+<link rel="stylesheet" href="../teste-familas.css">
+</head>
+
+<body>
+
+<h1>Gases Nobres</h1>
+<p class="titulo">A família dos gases nobres pertence ao Grupo 18. Seus elementos possuem a camada de valência completa, o que lhes confere grande estabilidade química e baixíssima reatividade. Em condições ambientes, são gases incolores, inodoros e monoatômicos, sendo utilizados em iluminação, medicina, indústria e pesquisas científicas.</p>
+
+<div class="tabela">
+    <div class="elemento"
+         onclick="mostrarInfo('Hélio', 'O hélio possui número atômico 2 e é o segundo elemento mais leve da Tabela Periódica. É um gás incolor, inodoro e extremamente estável, não sendo inflamável. É utilizado no enchimento de balões e dirigíveis, em equipamentos de ressonância magnética, na refrigeração de aparelhos científicos e em misturas respiratórias para mergulhadores.')">
+        <div class="numero">2</div>
+        <div class="simbolo">He</div>
+        <div class="nome">Hélio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Neônio', 'O neônio possui número atômico 10 e é um gás nobre incolor que, quando submetido à descarga elétrica, emite uma intensa luz vermelho-alaranjada. É amplamente utilizado em letreiros luminosos, lâmpadas decorativas, indicadores elétricos e equipamentos de sinalização.')">
+        <div class="numero">10</div>
+        <div class="simbolo">Ne</div>
+        <div class="nome">Neônio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Argônio', 'O argônio possui número atômico 18 e é o gás nobre mais abundante na atmosfera terrestre, representando cerca de 0,93% do ar. É um gás inerte utilizado em lâmpadas incandescentes, soldagem de metais, fabricação de componentes eletrônicos e em processos industriais que exigem uma atmosfera sem oxigênio.')">
+        <div class="numero">18</div>
+        <div class="simbolo">Ar</div>
+        <div class="nome">Argônio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Criptônio', 'O criptônio possui número atômico 36 e é um gás nobre raro e incolor. É utilizado em lâmpadas de alta intensidade, flashes fotográficos, lasers e alguns equipamentos científicos. Também pode produzir uma luz branca brilhante quando submetido à corrente elétrica.')">
+        <div class="numero">36</div>
+        <div class="simbolo">Kr</div>
+        <div class="nome">Criptônio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Xenônio', 'O xenônio possui número atômico 54 e é um gás nobre pesado e muito raro. É empregado em lâmpadas de alta intensidade, faróis automotivos, lasers, equipamentos médicos e como anestésico em algumas aplicações. Diferentemente da maioria dos gases nobres, o xenônio pode formar alguns compostos químicos em condições especiais.')">
+        <div class="numero">54</div>
+        <div class="simbolo">Xe</div>
+        <div class="nome">Xenônio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Radônio', 'O radônio possui número atômico 86 e é um gás nobre radioativo, incolor e inodoro, originado do decaimento natural do rádio. Pode acumular-se em ambientes fechados, representando riscos à saúde quando inalado por longos períodos. É utilizado principalmente em pesquisas científicas e em alguns estudos na área médica')">
+        <div class="numero">86</div>
+        <div class="simbolo">Rn</div>
+        <div class="nome">Radônio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Oganessônio', 'O oganessônio possui número atômico 118 e é um elemento sintético e altamente radioativo, produzido artificialmente em laboratório. Ele existe por um tempo extremamente curto antes de sofrer decaimento radioativo. Por causa de sua instabilidade, não possui aplicações comerciais e é utilizado exclusivamente em pesquisas científicas sobre física nuclear e elementos superpesados.')">
+        <div class="numero">118</div>
+        <div class="simbolo">Og</div>
+        <div class="nome">Oganessônio</div>
+    </div>
+
+    
+</div>
+
+<div class="info">
+    <h2 id="titulo">Selecione um elemento</h2>
+    <p id="descricao">
+        Toque ou clique em um elemento para ver sua descrição.
+    </p>
+</div>
+<script src="../familias.js"></script>
+</body>
+</html> 
