@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela Periódica Interativa</title>
+<link rel="stylesheet" href="../teste-familas.css">
+</head>
+
+<body>
+
+<h1>Família do Nitrogênio</h1>
+<p class="titulo">A família do nitrogênio pertence ao Grupo 15. Seus elementos possuem cinco elétrons na camada de valência, o que lhes permite formar três ligações químicas na maioria dos compostos. Essa família é formada por dois ametais, dois metaloides, um metal e um elemento sintético. Seus elementos são importantes para a vida, a agricultura, a indústria e a tecnologia.</p>
+
+<div class="tabela">
+    <div class="elemento"
+         onclick="mostrarInfo('Nitrogênio', 'O nitrogênio possui número atômico 7 e é um ametal que representa cerca de 78% da atmosfera terrestre. É um gás incolor, inodoro e pouco reativo em temperatura ambiente. O nitrogênio é essencial para a formação de proteínas, DNA e RNA, sendo indispensável para todos os seres vivos. Também é utilizado na produção de fertilizantes, amônia, explosivos e na conservação de alimentos por meio do nitrogênio líquido.')">
+        <div class="numero">7</div>
+        <div class="simbolo">N</div>
+        <div class="nome">Nitrogênio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Fósforo', 'O fósforo possui número atômico 15 e é um ametal encontrado em diferentes formas, como o fósforo branco e o fósforo vermelho. É essencial para os organismos vivos, participando da formação dos ossos, dentes, DNA, RNA e da molécula ATP, responsável pelo armazenamento de energia nas células. É amplamente utilizado na fabricação de fertilizantes, fósforos de segurança, detergentes e produtos químicos.')">
+        <div class="numero">15</div>
+        <div class="simbolo">P</div>
+        <div class="nome">Fósforo</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Arsênio', 'O arsênio possui número atômico 33 e é um metaloide de aparência metálica. É conhecido por sua toxicidade, mas também possui aplicações importantes na indústria. É utilizado na fabricação de semicondutores, ligas metálicas, dispositivos eletrônicos e alguns tipos de vidro. Seus compostos devem ser manipulados com cuidado devido aos riscos à saúde.')">
+        <div class="numero">33</div>
+        <div class="simbolo">As</div>
+        <div class="nome">Arsênio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Antimônio', 'O antimônio possui número atômico 51 e é um metaloide de cor prateada e aspecto brilhante. É utilizado principalmente na fabricação de ligas metálicas para aumentar a dureza de outros metais, em baterias, semicondutores e materiais retardantes de chama. Também possui aplicações na indústria eletrônica e na produção de vidros especiais.')">
+        <div class="numero">51</div>
+        <div class="simbolo">Sb</div>
+        <div class="nome">Antimônio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Bismuto', 'O bismuto possui número atômico 83 e é um metal pesado de coloração branco-prateada com reflexos rosados. É considerado um dos metais pesados menos tóxicos. É utilizado na fabricação de medicamentos, cosméticos, ligas metálicas de baixo ponto de fusão, soldas e dispositivos eletrônicos. Também substitui o chumbo em algumas aplicações por ser menos prejudicial ao meio ambiente.')">
+        <div class="numero">83</div>
+        <div class="simbolo">Bi</div>
+        <div class="nome">Bismuto</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Moscóvio', 'O moscóvio possui número atômico 115 e é um elemento sintético e altamente radioativo, produzido artificialmente em laboratório. Ele existe apenas por frações de segundo antes de sofrer decaimento radioativo. Por isso, não possui aplicações comerciais e é utilizado exclusivamente em pesquisas científicas sobre física nuclear e o comportamento dos elementos superpesados.')">
+        <div class="numero">115</div>
+        <div class="simbolo">Mc</div>
+        <div class="nome">Moscóvio</div>
+    </div>
+
+    
+</div>
+
+<div class="info">
+    <h2 id="titulo">Selecione um elemento</h2>
+    <p id="descricao">
+        Toque ou clique em um elemento para ver sua descrição.
+    </p>
+</div>
+<script src="../familias.js"></script>
+</body>
+</html>
