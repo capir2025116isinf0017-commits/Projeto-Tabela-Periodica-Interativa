@@ -1,0 +1,130 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+h1{
+    color: #93b128;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.titulo{
+    background-color: #b8cb74;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: auto;
+    font-size: 18px;
+    color: #444;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+    transition: .3s;
+}
+.titulo:hover{
+   transform:translateY(-3px);
+   transition:0.3s;
+}
+.tabela{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+.elemento{
+    width: 120px;
+    height: 140px;
+    background: #b8cb74;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+    transition: .3s;
+}
+.elemento:hover{
+    transform: translateY(-10px) scale(1.08);
+    background: #c7df73;
+}
+.numero{
+    font-size: 15px;
+    align-self: flex-start;
+    margin-left: 12px;
+}
+
+.simbolo{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nome{
+    font-size: 17px;
+    margin-top: 10px;
+}
+.info{
+    width: 70%;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.2);
+}
+
+.info h2{
+    color: #93b128;
+}
+
+.info p{
+    text-align: justify;
+    line-height: 1.7;
+}
+.info{
+    animation: aparecer .6s;
+}
+
+@keyframes aparecer{
+    from{
+        opacity:0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform: translateY(0);
+    }
+}
+@media(max-width:700px){
+
+    .elemento{
+        width:90px;
+        height:110px;
+    }
+
+    .simbolo{
+        font-size:30px;
+    }
+
+    .nome{
+        font-size:14px;
+    }
+
+    .info{
+        width:90%;
+    }
+}
+.elemento{
+    position:relative;
+}
+
+.numero{
+    position:absolute;
+    top:8px;
+    left:10px;
+}
+
+.simbolo{
+    margin-top:15px;
+}
