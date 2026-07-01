@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela Periódica Interativa</title>
+<link rel="stylesheet" href="../teste-familas.css">
+</head>
+
+<body>
+
+<h1>Metais Alcalinos Terrosos</h1>
+<p class="titulo">Os metais alcalinos terrosos pertencem ao Grupo 2 (2A).
+     Todos possuem dois elétrons na camada de valência, 
+     o que faz com que formem íons de carga +2. São metais reativos, 
+     porém menos reativos que os metais alcalinos. Na natureza, são encontrados 
+     principalmente na forma de minerais e compostos, e não em estado puro.</p>
+
+<div class="tabela">
+    <div class="elemento"
+         onclick="mostrarInfo('Berílio', 'O berílio possui número atômico 4 e é um metal leve, duro e resistente à corrosão. É o menos reativo dos metais alcalinos terrosos e apresenta elevada resistência mecânica. Devido às suas propriedades, é utilizado na indústria aeroespacial, em equipamentos de raios X, satélites e ligas metálicas de alta resistência. O berílio é tóxico quando seu pó é inalado.')">
+        <div class="numero">4</div>
+        <div class="simbolo">Be</div>
+        <div class="nome">Berílio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Magnésio', 'O magnésio possui número atômico 12 e é um metal leve, prateado e relativamente resistente à corrosão. Reage lentamente com a água fria e mais rapidamente com água quente ou vapor. É essencial para o funcionamento dos organismos vivos, participando da formação da clorofila nas plantas e de diversas reações no corpo humano. É utilizado em ligas metálicas, peças automotivas, aeronaves, fogos de artifício e medicamentos.')">
+        <div class="numero">12</div>
+        <div class="simbolo">Mg</div>
+        <div class="nome">Magnésio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Cálcio', ' O cálcio possui número atômico 20 e é um dos elementos mais abundantes na crosta terrestre. É um metal prateado que reage com a água e o oxigênio do ar. No corpo humano, é fundamental para a formação e manutenção dos ossos e dentes, além de participar da contração muscular e da coagulação do sangue. Também é utilizado na fabricação de cimento, cal e diversos materiais de construção.')">
+        <div class="numero">20</div>
+        <div class="simbolo">Ca</div>
+        <div class="nome">Cálcio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Estrôncio', 'O estrôncio possui número atômico 38 e é um metal macio e altamente reativo, que deve ser armazenado longe do ar e da umidade. Seus compostos produzem uma intensa cor vermelha quando queimados, sendo muito utilizados em fogos de artifício e sinalizadores. Também possui aplicações em pesquisas científicas e em alguns materiais cerâmicos.')">
+        <div class="numero">38</div>
+        <div class="simbolo">Sr</div>
+        <div class="nome">Estrôncio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Bário', 'O bário possui número atômico 56 e é um metal alcalino terroso de cor prateada e bastante reativo. Na medicina, um de seus compostos, o sulfato de bário, é utilizado como contraste em exames radiológicos do sistema digestório. Além disso, compostos de bário são empregados na fabricação de vidros, cerâmicas, tintas e fogos de artifício com coloração verde.')">
+        <div class="numero">56</div>
+        <div class="simbolo">Ba</div>
+        <div class="nome">Bário</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Rádio', 'O rádio possui número atômico 88 e é um metal altamente radioativo e muito raro. Descoberto por Marie Curie e Pierre Curie, foi amplamente estudado devido às suas propriedades radioativas. Atualmente, seu uso é bastante restrito por causa dos riscos à saúde, sendo empregado apenas em pesquisas científicas e em algumas aplicações específicas na área nuclear. É o metal alcalino terroso mais pesado e um dos mais reativos do grupo.')">
+        <div class="numero">88</div>
+        <div class="simbolo">Ra</div>
+        <div class="nome">Rádio</div>
+    </div>
+</div>
+
+<div class="info">
+    <h2 id="titulo">Selecione um elemento</h2>
+    <p id="descricao">
+        Toque ou clique em um elemento para ver sua descrição.
+    </p>
+</div>
+<script src="../familias.js"></script>
+</body>
+</html>
