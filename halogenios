@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela Periódica Interativa</title>
+<link rel="stylesheet" href="../teste-familas.css">
+</head>
+
+<body>
+
+<h1>Calcogênios</h1>
+<p class="titulo">A família dos halogênios pertence ao Grupo 17. Seus elementos possuem sete elétrons na camada de valência, necessitando de apenas um elétron para completar a camada externa. São ametais muito reativos e costumam formar sais quando reagem com metais, característica que deu origem ao nome "halogênio", que significa "formador de sais". Na natureza, não são encontrados em estado puro devido à sua elevada reatividade.</p>
+
+<div class="tabela">
+    <div class="elemento"
+         onclick="mostrarInfo('Flúor', 'O flúor possui número atômico 9 e é o elemento mais eletronegativo e mais reativo da Tabela Periódica. É um gás de coloração amarelo-clara e reage rapidamente com diversos elementos. Seus compostos são utilizados na fabricação de cremes dentais, água fluoretada, medicamentos, plásticos como o teflon e na indústria química.')">
+        <div class="numero">9</div>
+        <div class="simbolo">F</div>
+        <div class="nome">Flúor</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Cloro', 'O cloro possui número atômico 17 e é um gás de coloração amarelo-esverdeada, bastante reativo. É amplamente utilizado no tratamento de água e piscinas, na fabricação de produtos de limpeza, desinfetantes, plásticos como o PVC e diversos produtos químicos. Também é essencial para eliminar microrganismos nocivos.')">
+        <div class="numero">17</div>
+        <div class="simbolo">Cl</div>
+        <div class="nome">Cloro</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Bromo', 'O bromo possui número atômico 35 e é o único ametal líquido à temperatura ambiente. Possui coloração avermelhada e libera vapores de odor forte e irritante. É utilizado na fabricação de retardantes de chama, produtos farmacêuticos, pesticidas, corantes e produtos químicos para fotografia.')">
+        <div class="numero">35</div>
+        <div class="simbolo">Br</div>
+        <div class="nome">Bromo</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Iodo', 'O iodo possui número atômico 53 e é um ametal sólido de coloração cinza-escura que, quando aquecido, libera vapor violeta. É um elemento essencial para o funcionamento da glândula tireoide, participando da produção de hormônios. Também é utilizado em antissépticos, medicamentos, exames médicos e na iodação do sal de cozinha para prevenir deficiências nutricionais.')">
+        <div class="numero">53</div>
+        <div class="simbolo">I</div>
+        <div class="nome">Iodo</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Astato', 'O astato possui número atômico 85 e é um elemento raro e altamente radioativo. É considerado o halogênio mais raro encontrado naturalmente na Terra. Devido à sua curta meia-vida e à dificuldade de obtenção, é utilizado apenas em pesquisas científicas e em estudos sobre tratamentos experimentais contra alguns tipos de câncer.')">
+        <div class="numero">85</div>
+        <div class="simbolo">At</div>
+        <div class="nome">Astato</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Tenesso', 'O tenesso possui número atômico 117 e é um elemento sintético e altamente radioativo, produzido artificialmente em laboratório. Ele existe apenas por frações de segundo antes de sofrer decaimento radioativo. Por essa razão, não possui aplicações comerciais e é utilizado exclusivamente em pesquisas científicas relacionadas à física nuclear e ao estudo dos elementos superpesados.')">
+        <div class="numero">117</div>
+        <div class="simbolo">Ts</div>
+        <div class="nome">Tenesso</div>
+    </div>
+
+    
+</div>
+
+<div class="info">
+    <h2 id="titulo">Selecione um elemento</h2>
+    <p id="descricao">
+        Toque ou clique em um elemento para ver sua descrição.
+    </p>
+</div>
+<script src="../familias.js"></script>
+</body>
+</html> 
